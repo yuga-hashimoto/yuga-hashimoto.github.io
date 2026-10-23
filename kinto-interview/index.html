@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#10243e" />
+<meta name="description" content="KINTOテクノロジーズ カジュアル面談｜自己紹介と質問リスト" />
+<title>KINTOテクノロジーズ｜カジュアル面談メモ</title>
+<style>
+:root{--navy:#10243e;--navy2:#203d60;--blue:#2563eb;--blue-pale:#eaf1ff;--bg:#f4f7fb;--surface:#fff;--line:#dce4ef;--text:#1b293b;--muted:#607086;--green:#177f69;--shadow:0 6px 25px rgba(23,42,68,.055)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,"Noto Sans JP",sans-serif;color:var(--text);font-size:15px;line-height:1.75}
+.top{background:linear-gradient(115deg,#0d233e 10%,#224b75 100%);color:#fff;padding:36px 20px 42px}.top-inner,.container{max-width:900px;margin:auto}.eyebrow{color:#add0ff;font-weight:800;letter-spacing:.12em;text-transform:uppercase;font-size:11px}.top h1{font-size:clamp(23px,5vw,32px);line-height:1.4;margin:7px 0 10px;letter-spacing:-.025em}.top p{max-width:660px;color:#e3edfb;margin:0}.chips{display:flex;gap:7px;flex-wrap:wrap;margin-top:18px}.chip{background:#ffffff1d;border:1px solid #ffffff35;border-radius:40px;padding:3px 11px;color:#eaf3ff;font-size:12px;font-weight:700}.container{padding:0 18px 56px;margin-top:-18px}.tools{background:var(--surface);box-shadow:var(--shadow);border:1px solid var(--line);border-radius:15px;padding:14px 17px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;position:relative}.progress-meta{display:flex;align-items:center;gap:9px;flex:1;min-width:180px}.progress-meta strong{font-size:14px;white-space:nowrap}.bar{height:7px;flex:1;background:#e5eaf3;border-radius:20px;overflow:hidden;min-width:45px}.bar-fill{height:100%;width:0;background:var(--green);transition:width .18s}.action-list{display:flex;gap:7px;flex-wrap:wrap}button{font:inherit;cursor:pointer}button.action{border:1px solid var(--line);background:#fff;color:var(--navy);font-weight:700;padding:7px 11px;border-radius:10px;font-size:12px}button.action:hover{background:#f0f5fb}button.action.primary{background:var(--navy);color:#fff;border-color:var(--navy)}button:focus-visible,textarea:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid #70a5ff;outline-offset:2px}
+.section{margin-top:24px}.section-head{display:flex;gap:11px;align-items:flex-start;margin:0 0 13px}.num{display:grid;place-items:center;flex:none;width:34px;height:34px;background:var(--navy);color:#fff;font-weight:800;border-radius:11px;font-size:14px}.section-head h2{margin:0;font-size:21px;letter-spacing:-.02em;line-height:1.35}.subtext{font-size:12px;color:var(--muted);margin:4px 0 0}.paper{background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:16px;overflow:hidden}.intro{padding:22px 24px}.intro p{margin:0 0 14px}.intro p:last-child{margin-bottom:0}.intro .greeting{font-weight:750}.highlight{background:var(--blue-pale);color:#17459f;padding:0 3px;border-radius:4px;font-weight:750}.callout{margin:17px 24px 22px;border-left:3px solid var(--blue);background:#f2f6ff;padding:10px 14px;font-size:13px;color:#3e587a}.callout b{color:var(--navy)}.cat-block{margin-top:19px}.cat-head{display:flex;align-items:center;gap:10px;margin:0 0 10px}.cat-head span{background:var(--navy);color:white;font-size:12px;font-weight:800;border-radius:7px;padding:3px 10px}.cat-head h3{font-size:15px;margin:0}.cat-head small{margin-left:auto;color:var(--muted);font-size:12px}.question{display:grid;grid-template-columns:auto 1fr;gap:12px;padding:16px 18px;border-bottom:1px solid var(--line)}.question:last-child{border-bottom:0}.q-check{appearance:none;width:22px;height:22px;border:2px solid #94a5b8;border-radius:7px;background:#fff;cursor:pointer;margin:3px 0 0;flex:none;position:relative}.q-check:checked{background:var(--green);border-color:var(--green)}.q-check:checked:after{content:"✓";position:absolute;color:#fff;font-size:15px;font-weight:900;top:-5px;left:3px}.q-text label{display:block;cursor:pointer}.q-name{font-weight:800;color:var(--navy);font-size:14px;margin-bottom:3px}.q-line{margin:0;font-size:14px}.q-note{margin:7px 0 0;font-size:12px;color:var(--muted)}.question.completed .q-name,.question.completed .q-line{opacity:.66}.note-wrap{margin-top:12px}.note-wrap summary{font-size:12px;color:var(--blue);font-weight:750;cursor:pointer;user-select:none}.note-wrap textarea{display:block;margin-top:7px;width:100%;min-height:72px;border:1px solid #c9d7e8;background:#f9fbff;color:var(--text);font-size:13px;font-family:inherit;line-height:1.6;padding:10px;border-radius:9px;resize:vertical}.closing{padding:19px 23px}.closing p{margin:0 0 10px}.closing p:last-child{margin:0}.extra{border:1px dashed #b6c9e0;background:#f3f7fd;border-radius:12px;padding:15px 16px;margin-top:14px;font-size:14px}.extra strong{color:var(--navy)}footer{text-align:center;margin-top:28px;color:var(--muted);font-size:11px}.toast{position:fixed;bottom:24px;left:50%;transform:translate(-50%,20px);background:var(--navy);color:white;padding:9px 17px;border-radius:30px;opacity:0;pointer-events:none;transition:.22s;font-size:13px;white-space:nowrap;z-index:9}.toast.active{opacity:1;transform:translate(-50%,0)}
+@media(max-width:600px){.top{padding:30px 19px 37px}.container{padding:0 12px 35px}.tools{padding:12px}.progress-meta{min-width:100%}.action-list{width:100%;display:grid;grid-template-columns:repeat(3,1fr)}button.action{padding:9px 5px;font-size:12px}.intro{padding:18px}.callout{margin:9px 18px 18px}.question{padding:14px 12px;gap:10px}.section-head h2{font-size:19px}.cat-head small{font-size:11px}}
+@media print{*{print-color-adjust:exact;-webkit-print-color-adjust:exact}body{background:#fff;font-size:11pt;line-height:1.65}.top{padding:12mm 0 7mm;background:#fff;color:#17263a;border-bottom:3px solid #17263a}.top-inner{max-width:none}.top .eyebrow,.top p,.chips,.tools,.subtext,.q-note,.note-wrap,footer,.toast{display:none!important}.top h1{font-size:22pt;margin:0}.container{padding:0;margin:0;max-width:none}.section{margin-top:9mm;break-inside:avoid}.section-head{margin-bottom:4mm}.section-head h2{font-size:16pt}.num{background:#17263a}.paper{box-shadow:none;border-radius:6px}.intro{padding:5mm}.intro p{margin-bottom:3mm}.callout{margin:2mm 5mm 5mm}.cat-block{margin-top:6mm;break-inside:avoid}.question{break-inside:avoid;padding:3mm 4mm;gap:3mm}.q-name{font-size:10pt}.q-line{font-size:10pt}.q-check{width:15px;height:15px;margin-top:2px;appearance:auto;accent-color:#177f69}.closing{padding:5mm}.extra{padding:4mm}.section-head,.cat-head{break-after:avoid}}
+</style>
+</head>
+<body>
+<header class="top"><div class="top-inner">
+  <div class="eyebrow">CASUAL INTERVIEW · MEETING SHEET</div>
+  <h1>KINTOテクノロジーズ<br>カジュアル面談</h1>
+  <p>自己紹介と質問リストを、面談中に見返しやすい形にまとめました。</p>
+  <div class="chips"><span class="chip">QA / SET</span><span class="chip">FDE</span><span class="chip">エンジニアリング全般</span><span class="chip">福利厚生</span></div>
+</div></header>
+<main class="container">
+  <div class="tools" aria-label="面談中の操作">
+    <div class="progress-meta"><strong id="progress-label">確認済み 0 / 7</strong><div class="bar" role="progressbar" aria-label="質問の確認率" aria-valuemin="0" aria-valuemax="7" aria-valuenow="0" id="progress-bar"><div class="bar-fill" id="progress-fill"></div></div></div>
+    <div class="action-list">
+      <button type="button" class="action primary" id="copy">全文コピー</button>
+      <button type="button" class="action" id="print">印刷 / PDF</button>
+      <button type="button" class="action" id="reset">チェック解除</button>
+    </div>
+  </div>
+
+  <section class="section" aria-labelledby="intro-title">
+    <div class="section-head"><span class="num">01</span><div><h2 id="intro-title">自己紹介</h2><p class="subtext">目安：約1分。そのまま読み上げられます。</p></div></div>
+    <div class="paper"><div class="intro" id="intro-text">
+      <p class="greeting">はじめまして。現在、株式会社メルカリでQAエンジニアをしております、橋本悠我と申します。<br>本日は貴重なお時間をいただき、ありがとうございます。</p>
+      <p>現在はQAやSETとしての活動に加えて、<span class="highlight">FDEに近い動き</span>もしておりまして、社内のテスト管理Webサービスを自ら企画・設計・開発し、運用から現場への導入・定着まで一貫して取り組んでいます。</p>
+      <p>もともとソフトウェア開発の経験もあり、QAという職種にとらわれず、フロントエンド、バックエンド、インフラ、AI活用など、<span class="highlight">開発に関わることであれば幅広く取り組んでいます。</span></p>
+      <p>また最近、社内のバックエンドのイネーブラーチームからもお声がけいただいており、バックエンド領域への挑戦も検討しています。</p>
+      <p>本日はQAだけでなく、FDEやその他のエンジニア職種についても幅広くお話を伺えればと思っています。どうぞよろしくお願いいたします。</p>
+    </div>
+    <div class="callout"><b>伝えたい軸：</b>QAに限定せず、課題発見から開発・運用・現場への定着まで一貫して担えるエンジニア。</div></div>
+  </section>
+
+  <section class="section" aria-labelledby="questions-title">
+    <div class="section-head"><span class="num">02</span><div><h2 id="questions-title">質問リスト</h2><p class="subtext">聞けたらチェック。回答メモはこの端末のブラウザに自動保存されます。</p></div></div>
+    <div class="cat-block"><div class="cat-head"><span>FDE</span><h3>仕事内容・チーム体制</h3><small>3問</small></div><div class="paper">
+      <div class="question"><input id="q1" class="q-check" type="checkbox"><div class="q-text"><label for="q1"><div class="q-name">Q1. 実際の案件</div><p class="q-line">FDEの方々は、実際にどのような案件に取り組まれているのでしょうか？</p></label><details class="note-wrap"><summary>回答をメモする</summary><textarea data-note="q1" placeholder="具体的な案件、担当範囲など"></textarea></details></div></div>
+      <div class="question"><input id="q2" class="q-check" type="checkbox"><div class="q-text"><label for="q2"><div class="q-name">Q2. 1人で現場に入るのか</div><p class="q-line">FDEは基本的に1人で現場に入って、ヒアリングから開発・導入まで一貫して対応するのでしょうか？ それとも複数人のチームで動くことが多いのでしょうか？</p></label><details class="note-wrap"><summary>回答をメモする</summary><textarea data-note="q2" placeholder="現場での体制、開発の進め方など"></textarea></details></div></div>
+      <div class="question"><input id="q3" class="q-check" type="checkbox"><div class="q-text"><label for="q3"><div class="q-name">Q3. FDEの前職・バックグラウンド</div><p class="q-line">現在FDEとして活躍されている方々は、もともとどのような職種を経験されてきた方が多いのでしょうか？ バックエンド、QA、SRE、コンサルなど、さまざまな方がいらっしゃいますか？</p></label><details class="note-wrap"><summary>回答をメモする</summary><textarea data-note="q3" placeholder="どんな経歴が多いか、自分との相性など"></textarea></details></div></div>
+    </div></div>
+
+    <div class="cat-block"><div class="cat-head"><span>SET</span><h3>役割・取り組み</h3><small>1問</small></div><div class="paper">
+      <div class="question"><input id="q4" class="q-check" type="checkbox"><div class="q-text"><label for="q4"><div class="q-name">Q4. SETがやっていること</div><p class="q-line">SETチームでは、現在具体的にどのような取り組みをされているのでしょうか？ テスト自動化基盤やCI/CD、AIを活用した品質改善などが中心なのでしょうか？</p></label><details class="note-wrap"><summary>回答をメモする</summary><textarea data-note="q4" placeholder="業務範囲、QAとの役割分担など"></textarea></details></div></div>
+    </div></div>
+
+    <div class="cat-block"><div class="cat-head"><span>QA</span><h3>開発への関わり方</h3><small>2問</small></div><div class="paper">
+      <div class="question"><input id="q5" class="q-check" type="checkbox"><div class="q-text"><label for="q5"><div class="q-name">Q5. 開発チームとの関わり</div><p class="q-line">QAエンジニアは、開発チームとどのように関わって品質保証を進めていますか？ 要件定義や設計段階から参加するのか、開発チームに組み込まれて動くのかなど、実際の進め方を伺いたいです。</p></label><details class="note-wrap"><summary>回答をメモする</summary><textarea data-note="q5" placeholder="QAの参加タイミング、裁量など"></textarea></details></div></div>
+      <div class="question"><input id="q6" class="q-check" type="checkbox"><div class="q-text"><label for="q6"><div class="q-name">Q6. 自動テストを書くのか</div><p class="q-line">QAエンジニア自身がE2EテストやAPIテストなどの自動テストを実装することもありますか？ それとも自動化はSETチームが中心でしょうか？</p></label><details class="note-wrap"><summary>回答をメモする</summary><textarea data-note="q6" placeholder="自動化実装の担当、技術スタックなど"></textarea></details></div></div>
+    </div></div>
+
+    <div class="cat-block"><div class="cat-head"><span>福利厚生</span><h3>等級・家族手当</h3><small>1問</small></div><div class="paper">
+      <div class="question"><input id="q7" class="q-check" type="checkbox"><div class="q-text"><label for="q7"><div class="q-name">Q7. 子ども手当などの対象等級</div><p class="q-line">求人票では家族手当などが「一部等級のみ対象」と記載されていますが、具体的にどの等級が対象なのでしょうか？ 等級が上がると対象外になる制度もありますか？</p></label><details class="note-wrap"><summary>回答をメモする</summary><textarea data-note="q7" placeholder="対象等級、支給条件など"></textarea></details></div></div>
+    </div></div>
+
+    <div class="extra"><strong>余裕があれば最後にひとこと</strong><br>「私のこれまでの経験ですと、QA・SET・FDEなどの中で、どのポジションが最も合いそうだと思われますか？」</div>
+  </section>
+
+  <section class="section" aria-labelledby="closing-title"><div class="section-head"><span class="num">03</span><div><h2 id="closing-title">締めの挨拶</h2></div></div><div class="paper closing" id="closing-text"><p>本日はさまざまなお話を聞かせていただき、ありがとうございました。</p><p>QAやSETだけでなく、FDEの具体的な仕事内容についても理解が深まり、今後のキャリアを考えるうえで大変参考になりました。</p><p>本日はありがとうございました。</p></div></section>
+  <footer>個人用 面談メモ｜チェック・回答メモはこのブラウザ内に保存されます。別の端末には同期されません。</footer>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>
+(function(){
+'use strict';
+const key='kinto_casual_interview_v1';
+const checks=Array.from(document.querySelectorAll('.q-check'));
+const notes=Array.from(document.querySelectorAll('[data-note]'));
+let toastTimeout;
+function showToast(message){const el=document.getElementById('toast');el.textContent=message;el.classList.add('active');clearTimeout(toastTimeout);toastTimeout=setTimeout(()=>el.classList.remove('active'),2000)}
+function save(){try{localStorage.setItem(key,JSON.stringify({checks:Object.fromEntries(checks.map(e=>[e.id,e.checked])),notes:Object.fromEntries(notes.map(e=>[e.dataset.note,e.value]))}))}catch(e){}}
+function update(){const n=checks.filter(e=>e.checked).length;document.getElementById('progress-label').textContent=`確認済み ${n} / ${checks.length}`;document.getElementById('progress-fill').style.width=`${100*n/checks.length}%`;document.getElementById('progress-bar').setAttribute('aria-valuenow',String(n));checks.forEach(e=>e.closest('.question').classList.toggle('completed',e.checked))}
+try{const data=JSON.parse(localStorage.getItem(key)||'{}');checks.forEach(e=>e.checked=!!data.checks?.[e.id]);notes.forEach(e=>e.value=data.notes?.[e.dataset.note]||'')}catch(e){}
+checks.forEach(e=>e.addEventListener('change',()=>{update();save()}));notes.forEach(e=>e.addEventListener('input',save));update();
+document.getElementById('print').addEventListener('click',()=>window.print());
+document.getElementById('reset').addEventListener('click',()=>{if(!confirm('すべてのチェックを解除しますか？（回答メモは残ります）'))return;checks.forEach(e=>e.checked=false);update();save();showToast('チェックを解除しました')});
+document.getElementById('copy').addEventListener('click',async()=>{const parts=['【自己紹介】',document.getElementById('intro-text').innerText,'【質問】'];document.querySelectorAll('.question').forEach((el,i)=>{const name=el.querySelector('.q-name').innerText;const question=el.querySelector('.q-line').innerText;const note=el.querySelector('textarea').value;parts.push(`${name}\n${question}${note?'\n回答メモ：'+note:''}`)});parts.push('【最後に】\n私のこれまでの経験ですと、QA・SET・FDEなどの中で、どのポジションが最も合いそうだと思われますか？','【締めの挨拶】',document.getElementById('closing-text').innerText);const value=parts.join('\n\n');try{await navigator.clipboard.writeText(value);showToast('全文をコピーしました')}catch(e){const area=document.createElement('textarea');area.value=value;document.body.append(area);area.select();const ok=document.execCommand('copy');area.remove();showToast(ok?'全文をコピーしました':'コピーできませんでした')}});
+})();
+</script>
+</body>
+</html>
